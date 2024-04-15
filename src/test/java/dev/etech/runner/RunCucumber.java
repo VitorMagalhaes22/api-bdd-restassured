@@ -9,10 +9,9 @@ import org.junit.runner.RunWith;
 
       features = "./src/test/resources",
         glue = "dev.etech.steps",
-        //tags = "@smokeTest", Executa todos os cenarios do projeto que contem a tag @smokeTest
-        //tags = "@cadastro and @smokeTest", Executa todos os cenarios que contem as duas tags
-        //tags = "@cadastro or @smokeTest",   Executa todos os cenarios que contem uma das duas tags
-        tags = "@emailExistente",
+        //tags = "@regressivo", Executa todos os cenarios do projeto que contem a tag @smokeTest
+        //tags = "@cadastro and @regressivo", Executa todos os cenarios que contem as duas tags
+        tags = "@regressivo",
         plugin = {"json:target/cucumber/cucumber.json"}
 )
 
