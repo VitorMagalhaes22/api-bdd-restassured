@@ -3,6 +3,8 @@
 
 # Log file
 *.log
+target/
+allure-results/
 
 # BlueJ files
 *.ctxt

@@ -15,5 +15,5 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber/cucumber.json"}
 )
 
-public class RunCucumber {
+public class RunTest {
 }
